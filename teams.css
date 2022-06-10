@@ -1,0 +1,12 @@
+#teams .card .card-body{
+    background-color: #0005;
+}
+#teams .card .card-img{
+    object-fit: cover;
+    object-position: center center;
+    transition: all .25s ease;
+}
+#teams .card:hover .card-img{
+    object-position: left center;
+    transform: scale(1.2,1.2);
+}

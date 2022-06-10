@@ -1,0 +1,40 @@
+.col-12 .card-container{
+    perspective: 2000px;
+    transform-style: preserve-3d;
+    transition: transform .8s ease;
+  }
+  .col-12:hover .card-container{
+    transform: rotateY(180deg);
+  }
+  .card-container img{
+    transform: translateZ(0px);
+  }
+  .card-container .card{
+    transform: translateZ(50px);
+  }
+  .card-container .card.card-back{
+    transform: translateZ(-50px) rotateY(180deg) scale(1.01,1.01);
+  }
+  .card-container .card .card-img-overlay div{
+    display: grid;
+    place-content: center;
+    background-color: #0005;
+  }
+  .col-12:nth-child(6n+1) .card-container .card{
+    background-color: var(--primary);
+  }
+  .col-12:nth-child(6n+2) .card-container .card{
+    background-color: var(--secondary);
+  }
+  .col-12:nth-child(6n+3) .card-container .card{
+    background-color: var(--success);
+  }
+  .col-12:nth-child(6n+4) .card-container .card{
+    background-color: var(--danger);
+  }
+  .col-12:nth-child(6n+5) .card-container .card{
+    background-color: var(--warning);
+  }
+  .col-12:nth-child(6n+6) .card-container .card{
+    background-color: var(--info);
+  }
