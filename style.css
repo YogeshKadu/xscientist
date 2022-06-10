@@ -31,11 +31,14 @@
   background-color: var(--primary-theme) !important;
 }
 .color-primary-theme {
-  background-color: var(--primary-theme);
+  color: var(--primary-theme) !important;
 }
 .vh-100 {
   height: 100vh;
 }
 .cursor-ponter{
   cursor: pointer;
+}
+footer ul{
+  list-style: none;
 }
