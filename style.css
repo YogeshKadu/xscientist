@@ -6,6 +6,8 @@
   --warning: #ffc107;
   --info: #0dcaf0;
   --primary-theme:#5d5fec;
+
+  scroll-padding-top: 90px;
 }
 * {
   margin: 0px;
