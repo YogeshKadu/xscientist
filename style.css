@@ -15,7 +15,7 @@
   color: #FFFFFF;
   box-sizing: border-box;
   font-family: Cambria, "Montserrat";
-  font-family: "Montserrat Alternates";
+  /* font-family: "Montserrat Alternates"; */
 }
 :root {
   scroll-behavior: smooth;
