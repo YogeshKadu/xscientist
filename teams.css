@@ -1,16 +1,3 @@
-/* #teams .card .card-body{
-    background-color: #0005;
-}
-#teams .card .card-img{
-    object-position: center center;
-    transition: all .25s ease;
-}
-#teams .card:hover .card-img{
-    object-position: left center;
-    transform: scale(1.2,1.2);
-} */
-
-
 #team .member{
     display: flex;
     flex-direction: column;
@@ -49,18 +36,3 @@
     background-repeat: no-repeat;
     background-size: 600px;
 }
-/* #teams .member1{
-background-image: url('https://loremflickr.com/300/400/man?random=1');
-}
-#teams .member2{
-background-image: url('https://loremflickr.com/300/400/man?random=2');
-}
-#teams .member3{
-background-image: url('https://loremflickr.com/300/400/man?random=3');
-}
-#teams .member4{
-background-image: url('https://loremflickr.com/300/400/man?random=4');
-}
-#teams .member5{
-background-image: url('https://loremflickr.com/300/400/man?random=5');
-} */
